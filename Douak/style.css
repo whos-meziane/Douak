@@ -1,0 +1,342 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.container{
+    max-width: 1300px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 0 20px;
+}
+.container .logo{
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+nav ul button{
+    text-decoration: none;
+    background-color: #fff;
+    color: #221f1f;;
+    border: none;
+    font-weight: 550;
+    font-size: 17px;
+    transition: 0.5s;
+    padding: 24px 26px 26px;
+    height: 100%;
+    text-align: center;
+    display: block;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul button:hover{
+    filter: brightness(90%);
+}
+
+
+
+
+.background{
+    display: flexbox;
+    align-items: center;
+    background-image: url("back2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    color: #fff;
+}
+
+.background .quotation{
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    padding: 30px 40px 30px;
+    text-align: justify;
+    font-family: 'Source Sans Pro';
+    top: 50%;
+    width: 50%;
+    color: #000;
+    background-color: #f1f1f1;
+    opacity: 82%;
+}
+.background h2{
+    font-size: 48px;
+    word-spacing: 16px;
+    letter-spacing: 1.2;
+    line-height: 1.8;
+}
+.background span{
+    color: #7453AC;
+}
+.background small{
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1.25;
+    line-height: 1.8;
+}
+
+
+.products-cont{
+    max-width: 1300px;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+    font-family: 'Source Sans Pro';
+    padding-top: 10px;
+}
+#most-searched-items, #infos-section-title, #all-items{
+    font-family: 'Source Sans Pro';
+    font-size: 28px;
+    font-weight: 650;
+    color: #000;
+    text-align: center;
+}
+.fav-products, .all-products{
+    display: flex;
+    margin-top: 20px;
+    padding: 0 50px 0 20px;
+}
+#all-products-container{
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    margin-bottom: 10px;
+}
+.row .col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin: 0 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2);
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.col-4 .product-img{
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.col-4 .product-description{
+    height: 75px;
+    font-family: 'Source Sans Pro';
+    padding: 10px 20px;
+    border: none;
+}
+.col-4 img{
+    width: 100%;
+}
+.col-4 .product-description h4{
+    font-size: 19px;
+    font-weight: 450;
+}
+.col-4 .product-description small{
+    font-size: 13px;
+    font-weight: 350;
+    color: #4B4453;
+}
+.price-tag{
+    padding: 5px 25px;
+    text-align: right;
+    font-family: 'Source Sans Pro';
+    background-color: #e3e2e1;
+    border: none;
+    letter-spacing: -1px;
+}
+.meds-price, .price-currency{
+    color: rgba(0, 20, 0, 0.6);
+    font-size: 22px;
+    font-weight: 700;
+    word-spacing: -2px;
+}
+.meds-price .small-price{
+    font-size: 17px;
+    font-weight: 620;
+    
+}
+.meds-info-host-section{
+    background-color: #f1f1f1;
+    border: none;
+}
+.col-4:hover{
+    transform: translateY(-2%);
+}
+
+
+.presentation-container{
+    width: 100%;
+    display: flex;
+    margin: 50px auto 30px;
+    padding: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+.presentation-container .brand-logo{
+    flex-basis: 50%;
+}
+.brand-logo img{
+    width: 100%;
+}
+.presentation-container .brand-presentation{
+    flex-basis: 50%;
+    background: linear-gradient(to right, #f0f0f1, #fff);
+    padding: 50px 20px 50px 80px;
+    word-spacing: 7px;
+}
+.brand-presentation h1{
+    color: #000;
+    font-size: 58px;
+    line-height: 1.6;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+#custom-logo{
+    color: #7453AC;
+    font-size: 68px;
+    font-weight: 700;
+    font-family: serif;
+}
+.brand-presentation small{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.4;
+    font-weight: 450;
+    letter-spacing: -1px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.brand-presentation a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #000;
+}
+.brand-presentation a:hover{
+    opacity: 70%;
+    filter: brightness(90%);
+}
+#learn-more-tag{
+    padding-top: 10px;
+}
+
+/*Search bar code*/
+.search-bar-container{
+    height: 100%;
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-bar{
+    width: 100%;
+    padding: 0 10px 0 20px;
+    font-family: 'Source Sans Pro';
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+}
+.search-bar input{
+    border: 0;
+    outline: none;
+    background: transparent;
+    height: 100%;
+    flex: 1;
+    padding: 14px 10px;
+    font-size: 17px;
+    color: #000;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.7);
+    opacity: 60%;
+}
+.search-bar button img{
+    width: 25px;
+}
+.search-bar button{
+    border: 0;
+    border-radius: 50%;
+    width: 35px;
+    background: none;
+    height: 35px;
+    cursor: pointer;
+}
+
+
+.infos-section-container{
+    display: block;
+    padding-top: 60px;
+    max-width: 1400px;
+    margin: auto;
+}
+.infos-section-container .two-row-info-conatiner{
+    display: block;
+    padding: 10px 50px;
+    margin: auto;
+    width: 100%;
+}
+.infos-row{
+    display: flex;
+    margin-bottom: 30px;
+}
+.infos-row .col-2{
+    flex-basis: 50%;
+    margin: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.infos-row .col-2 img{
+    width: 100%;
+}
+.col-2 .article-description{
+    font-family: 'Poppins', sans-serif;
+}
+.col-2 .article-description h2{
+    font-size: 32px;
+    letter-spacing: -0.5px;
+    word-spacing: 3px;
+    line-height: 52px;
+}
+.col-2 .article-description small{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+}
+.col-2 .article-description button{
+    border: 2px solid black;
+    padding: 10px 25px;
+    text-decoration: none;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.col-2 .article-description button:hover{
+    background: #000;
+    color: #fff;
+}
+.infos-section-container::after

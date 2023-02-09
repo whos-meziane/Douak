@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    max-width: 1300px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.container{
+    display: flex;
+    background: #fff;
+    align-items: center;
+    padding: 0 20px;
+}
+.container .logo{
+    cursor: pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+nav ul button{
+    text-decoration: none;
+    background-color: #fff;
+    color: #221f1f;;
+    border: none;
+    font-weight: 700;
+    font-size: 17px;
+    transition: 0.5s;
+    padding: 24px 26px 26px;
+    height: 100%;
+    text-align: center;
+    display: block;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul button:hover{
+    filter:brightness(90%);
+}
+
+
+
+
+.background{
+    display: flexbox;
+    align-items: center;
+    background-image: url("Background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    color: #fff;
+}
+
+.background .quotation{
+    display: block;
+    position: relative;
+    margin-left: 50px;
+    padding: 10px 20px 20px;
+    text-align: justify;
+    font-family: 'Source Sans Pro';
+    top: 50%;
+    font-family: 'Playfair Display', serif;
+    width: 50%;
+    background-color: #4B4453;
+    opacity: 87%;
+}
+.background h2{
+    font-size: 56px;
+    word-spacing: 16px;
+    letter-spacing: 1.2;
+    line-height: 1.8;
+}
+.background small{
+    font-size: 16px;
+    word-spacing: 3px;
+    letter-spacing: 1.25;
+    line-height: 1.8;
+}
+.background a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 20px;
+    transition: 0.5s;
+    color: #fff;
+}
+.background a:hover{
+    opacity: 90%;
+}
+.explore{
+    display: flex;
+    align-self: baseline;
+    padding-top: 15px;
+}
+.background .explore h4{
+    font-size: 14px;
+    margin-right: 10px
+}

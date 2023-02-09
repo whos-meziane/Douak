@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Home Page | Douak</title>
+        <link href="">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="logo-removebg.png" title="Home" width="125px">
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <button>
+                                <span>Products</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>Information</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>About</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button>
+                                <span>Contact</span>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="background">
+            <div class="quotation">
+                <h2>Douak</h2>
+                <small>La premiere platforme pharmaceutique au Maroc. Effectuez vos commandes et recevez les au pas de votre porte.</small>
+                <div class="explore">
+                    
+                    <h4><a href="">Explore more</a></h4>
+                    <img src="next-svgrepo-com.png" width="20px">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
